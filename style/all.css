@@ -109,9 +109,11 @@ border-right:  1px solid #b4b4b4;
 
 /* content */
 .title {
-    background-image: url('Banner.png');
+    background-image: url('https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 1000px;
-    height: 418px;
+    height: 346px;
     display: flex;
     align-items: center;
     margin-bottom: 72px;
