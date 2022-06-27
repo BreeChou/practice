@@ -288,10 +288,6 @@ label {
         margin-bottom: 20px;
     }
     
-    .tableContent {
-        font-size: 20px;
-        
-    }
     .contact form {
         flex-direction: column-reverse;
     }
