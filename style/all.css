@@ -280,7 +280,7 @@ label {
         margin-top: 30px;
     }
     .course .card {
-        width: 90%;
+        width: 80%;
         margin-bottom: 20px;
     }
     .course .card:hover {
@@ -289,6 +289,7 @@ label {
     }
     
     .contact form {
+        position: relative;
         flex-direction: column-reverse;
     }
     .group {
@@ -297,8 +298,10 @@ label {
     }
     
     .btn {
+        position: absolute;
+        top: 102%;
         width: 40%;
-        align-self: center;
+        align-self: end;
         margin-bottom: 30px;
     }
     .contact form textarea {
