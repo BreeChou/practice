@@ -263,8 +263,7 @@ label {
 }
 @media (max-width: 768px) {
     .wrap {
-        max-width: 768px;
-        width: 100%;
+        width: 76.8%;
         margin: 0 auto;
     }
     
@@ -279,12 +278,20 @@ label {
         align-items: center;
         margin-top: 30px;
     }
+    .header a {
+        font-size: 20px;
+    }
+    .navbar img {
+        margin: 20px 0;
+        width: 250px;
+        object-fit: fill;
+    }
     .course .card {
-        width: 80%;
+        width: 100%;
         margin-bottom: 20px;
     }
     .course .card:hover {
-        width: 90%;
+        width: 100%;
         margin-bottom: 20px;
     }
     
@@ -323,4 +330,3 @@ label {
         line-height: 1.5;
     }
 }
-
